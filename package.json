@@ -1,0 +1,10 @@
+{
+  "name": "homework-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx local-ssl-proxy --source 8080 --target 80"
+  },
+  "dependencies": {
+    "local-ssl-proxy": "^1.3.0"
+  }
+}
